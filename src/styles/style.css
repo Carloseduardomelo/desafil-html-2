@@ -134,6 +134,11 @@ body{
 table{
     border: 1px solid darkgrey;
 }
+
+thead{
+    background-color: #2a6a75;
+}
+
 table td , table th{
     border-bottom: 1px solid rgba(0, 0, 0, 0.379);
     border-right: 1px solid rgba(0, 0, 0, 0.356);
