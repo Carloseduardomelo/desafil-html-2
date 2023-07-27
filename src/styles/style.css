@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,#98b6c0,#7cbc9a,#23998e,#1d5e69);
+}
+body{
+    width: 100%;
+    height: auto;
+}
+
+.cont-princ{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.menu ul{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    /* border: 1px solid red; */
+    gap: 30px;
+
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    box-shadow: -1px 1px 10px 10px rgba(0, 0, 0, 0.118);
+
+    background: linear-gradient(to top left,#1d5e69 ,#23998e);
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    transition: text-decoration 1s;
+}
+.menu p{
+    color: black;
+}
+
+.conts{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+
+.conts header{
+    width: 100%;
+    height: 13%;
+    /* background-color: darkgreen; */
+}
+
+.conts header img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.conts main{
+    width: 100%;
+    height: 74%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conts section{
+    width: 50%;
+    height: auto;
+
+    box-shadow: -1px 1px 10px 10px rgba(0, 0, 0, 0.118);
+    border:  1px solid darkgray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    text-indent: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+}.conts h1{
+    text-align: center;
+}
+
+.conts footer{
+    width: 100%;
+    height: 13%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.conts a{
+    margin: 0px 10px;
+}
+
+.conts a:hover{
+    transform: translateY(-10px);
+    transition: transform .8s;
+}
+
+table{
+    border: 1px solid darkgrey;
+}
+table td , table th{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.379);
+    border-right: 1px solid rgba(0, 0, 0, 0.356);
+    padding: 10px;
+}
+
+table tr:hover{
+    background-color: rgba(169, 169, 169, 0.316);
+}
